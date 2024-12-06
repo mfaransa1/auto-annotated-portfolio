@@ -3,46 +3,60 @@
     "favicon": "/images/android-chrome-192x192.png",
     "header": {
         "type": "Header",
-        "headerVariant": "variant-c",
-        "isSticky": false,
-        "title": "Personal",
+        "title": "Your Brand",
         "isTitleVisible": true,
+        "logo": {
+            "type": "ImageBlock",
+            "url": "https://assets.stackbit.com/components/images/default/default-image.png",
+            "altText": "Your logo image",
+            "caption": "",
+            "elementId": ""
+        },
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info"
-            },
-            {
-                "type": "Link",
-                "label": "Projects",
-                "url": "/projects"
+                "label": "Home",
+                "altText": "Home",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             },
             {
                 "type": "Link",
                 "label": "Blog",
-                "url": "/blog"
+                "altText": "Blog",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "socialLinks": [
             {
                 "type": "Social",
+                "label": "",
                 "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
+                "url": "/",
+                "icon": "twitter",
+                "elementId": ""
             },
             {
                 "type": "Social",
+                "label": "",
                 "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
+                "url": "/",
+                "icon": "github",
+                "elementId": ""
             }
         ],
+        "headerVariant": "variant-c",
+        "isSticky": false,
         "styles": {
             "self": {
-                "width": "full"
+                "width": "narrow"
             }
         }
     },

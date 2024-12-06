@@ -7,7 +7,7 @@
         "isTitleVisible": true,
         "logo": {
             "type": "ImageBlock",
-            "url": "https://assets.stackbit.com/components/images/default/default-image.png",
+            "url": "/images/android-chrome-192x192.png",
             "altText": "Your logo image",
             "caption": "",
             "elementId": ""
